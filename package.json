@@ -1,0 +1,38 @@
+{
+  "name": "wp-ts-vscode-boilerplate",
+  "version": "1.0.0",
+  "description": "Webpack+Typescript+VSCode Boilerplate",
+  "main": "src/main.ts",
+
+  "dependencies": {
+    "ts-loader": "^6.2.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/webpack": "^4.39.2",
+    "@types/webpack-dev-server": "^3.1.7",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "dev": "npx webpack --watch & npx webpack-dev-server & xdg-open http://localhost:8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexSzeto/wp-ts-vscode-boilerplate.git"
+  },
+  "keywords": [
+    "Webpack",
+    "Typescript",
+    "VSCode",
+    "Boilerplate"
+  ],
+  "author": "Alex Szeto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexSzeto/wp-ts-vscode-boilerplate/issues"
+  },
+  "homepage": "https://github.com/AlexSzeto/wp-ts-vscode-boilerplate#readme"
+}
