@@ -14,7 +14,7 @@
   "devDependencies": {
     "@types/webpack": "^4.39.2",
     "@types/webpack-dev-server": "^3.1.7",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
     "dev": "npx webpack --watch & npx webpack-dev-server & xdg-open http://localhost:8080"
